@@ -1,0 +1,80 @@
+#eight-march {
+    margin: auto;
+    width: 50%;
+    text-align: left;
+    color: #ff8fa7;
+}
+
+#march {
+    font-size: 70px;
+}
+
+#eight {
+    font-size: 120px;
+}
+
+#check{
+    font-size: 40px;
+    margin: auto;
+    margin-top: 60px;
+    width: fit-content;
+}
+
+#cursor{
+    animation: blink 1s linear infinite;
+    border-right: 2px solid;
+    height: 100%;
+    border-right-color: red;
+    transition: all 0.5s;
+}
+
+body{
+    width: 1000px;
+    height: 500px;
+    background-image: url("../images/sakura.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.dot{
+    width:75px;
+    height:75px;
+    position:absolute;
+    background-image: url("../images/pinkLeaf.png");
+    /*linear-gradient(to bottom right, rgb(0, 10, 0), rgb(0, 200, 0));
+    border-radius: 30px;*/
+    background-size: 100% 100%;
+}
+
+html, #container {width:100%; height:100%; user-select: none;}
+
+#card-container {
+    margin:auto;
+    text-align: center;
+    width: 50%;
+    border: 3px dashed blueviolet;
+    border-radius: 50px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, rgba(255, 50, 255, 0.5), rgba(255, 150, 255, 0.5));
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.letter {
+    display: inline-block;
+    font-size: large;
+    opacity: 0;
+    padding: 0px;
+}
+
+p {
+    display: inline-block;
+}
+
+@keyframes blink{
+    50%{
+        opacity: 0;
+    }
+}
