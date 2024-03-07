@@ -73,6 +73,14 @@ p {
     display: inline-block;
 }
 
+a {
+    color: #ff8fa7;
+    transition: all 0.3s;
+}
+a:hover {
+    color: #ff0037;
+}
+
 @keyframes blink{
     50%{
         opacity: 0;
